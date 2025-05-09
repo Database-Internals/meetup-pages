@@ -4,6 +4,6 @@ theme: minima
 markdown: kramdown
 
 # Optional: Custom navigation links
-nav:
-  - Home: index.md
-  - Videos: videos/
+header_pages:
+  - index.md
+  - videos/
