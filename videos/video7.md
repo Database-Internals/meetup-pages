@@ -1,0 +1,46 @@
+---
+layout: post
+title: Database Internals Meetup №7
+---
+
+# Database Internals Meetup №7
+
+## Database Internals Meetup #7 (online). Cloud Native & Serverless: WeSQL + Nile 
+
+> Database Internals Meetup #7. This time we dive into Cloud Native and Serverless with two innovative systems: WeSQL and Nile
+
+
+<p>
+  <a href="http://www.youtube.com/watch?v=8UOhb6mJAFA" target="_blank" rel="noopener noreferrer">
+    <i class="fab fa-youtube"></i> YouTube
+  </a>
+</p>
+
+<p>
+  <a href="https://vkvideo.ru/video-226977842_456239024" target="_blank" rel="noopener noreferrer">
+    <i class="fab fa-vk"></i> VK
+  </a>
+</p>
+
+# Доклады / Talks
+## WeSQL: A Cloud-Native Database Built on General-Purpose IaaS
+> Zhao Dongsheng, Founding Engineer, Storage Engine Team Lead, WeSQL
+
+_Доклад на анлийском языке_
+
+In this talk, we’ll introduce WeSQL, a cloud-native database designed to run efficiently on general-purpose IaaS infrastructure. We’ll share the motivation behind building WeSQL, explain why we chose an LSM Tree-based storage engine, and how we leverage both instance disks and S3 as storage media. We’ll also dive into how WeSQL achieves high cost-efficiency through the decoupling of latency and durability, the use of persistent cache, and a hybrid row-column storage format. Additionally, we’ll explain how consistent snapshots are used to fully persist data to S3.
+
+In addition, we’ll share our future plans for WeSQL — how we aim to deliver extremely low RTO in scenarios with massive tables and large-scale datasets and how WeSQL’s upcoming Data Branch capability will enable lightweight, fast backup and restore, making data versioning and recovery more efficient and agile than ever before.
+
+## Nile: Serverless Postgres for Modern Multi-Tenant SaaS
+> Peter Pleshachkov, Founding Engineer, Nile
+
+_Доклад на английском языке._
+
+Nile is a serverless Postgres platform built for modern B2B SaaS applications. At the heart of every B2B SaaS product is multi-tenancy. A tenant — typically a company, an organization, or a workspace in your product that encapsulates a group of users and their data. Nile treats tenants as first-class citizens, making it simple to build secure, isolated, and globally distributed applications from day one.
+
+It decouples storage from compute, virtualizes tenants at the database level, and offers seamless vertical and horizontal scaling across regions — enabling teams to ship faster, stay secure, and scale without limits.
+
+We’ll walk through the key architectural decisions behind Nile, and how we designed a modern Postgres infrastructure to meet the needs of today’s high-growth SaaS applications.
+
+[Back to Home](index.md)

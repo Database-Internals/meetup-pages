@@ -5,7 +5,9 @@ title: Database Internals Meetup №4
 
 # Database Internals Meetup №4
 
-  Database Internals Meetup №4 (Avito.Tech) 
+## Database Internals Meetup №4 (офлайн + онлайн): Векторные поиски в Sphinx и материализованные представления в GreenplumDB 
+
+> Четвертый митап российского сообщества разработчиков СУБД и распределенных систем. Обсудим как разработан векторый поиск в Sphinx и как можно ускорить GreenplumDB через проекции и материализованные представления.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/39kontLmxvY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -14,5 +16,26 @@ title: Database Internals Meetup №4
     Watch on YouTube
   </a>
 </p>
+
+<iframe src="https://vkvideo.ru/video_ext.php?oid=-226977842&id=456239019&hd=2&autoplay=1" width="853" height="480" allow="autoplay; encrypted-media; fullscreen; picture-in-picture; screen-wake-lock;" frameborder="0" allowfullscreen></iframe>
+
+<p>
+  <a href="https://vkvideo.ru/video-226977842_456239019" target="_blank" rel="noopener noreferrer">
+    Watch on VK
+  </a>
+</p>
+
+# Доклады
+## Векторные поиски: опыт внедрения и эксплуатации в Sphinx
+> Самолкаев Михаил, разработчик команды инфраструктуры поиска (Search Infra) в Авито
+
+В 2024 векторными поисками интересуются все, а мы добавили его поддержку в движок еще в 2021 и активно используем его в продакшне до сих пор. В докладе сделаем обзор наиболее интересных на сегодняшний день алгоритмов (HNSW, …) и техник (SQ, PQ, …), посмотрим на готовые решение в виде библиотек (FAISS, Usearch …).
+
+Подробно разберём, как устроен векторный поиск "под капотом". А еще расскажем как выбрали подходящее нам решение и интегрировали его в Sphinx
+
+## Ускорение запросов в СУБД GreenplumDB через проекции и материализованные представления.
+> Кирилл Решке, Старший разработчик Яндекс, занимается разработкой GreenplumDB и PostgreSQL
+
+Материализованные представления дают возможность аналитическим СУБД существенно ускорять запросы, опираясь на заранее подготовленные части запросов. В этом докладе будет рассказано о простых материализованных представлениях, которые в СУБД Vertica называются проекциями, а также о более сложных представлениях для поддержки инкрементальных представлений.
 
 [Back to Home](index.md)
