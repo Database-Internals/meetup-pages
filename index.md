@@ -3,7 +3,7 @@ layout: default
 title: Home
 ---
 
-<img src="/assets/images/db_internals_meetup.jpg" alt="Banner Image" style="width:100%; height:auto;">
+<img src="./assets/images/db_internals_meetup.jpg" alt="Banner Image" style="width:100%; height:auto;">
 
 # Videos
 
