@@ -2,18 +2,26 @@ title: Database Internals Meetups
 description: Database Internals Meetup community content.
 theme: minima
 markdown: kramdown
+sass:
+  quiet_deps: true
+  silence_deprecations: [import]
 
+# to become minima.nav_pages in minima@3.0
 header_pages:
-  - index.md
-  - reading-lists/index.md
- 
-social_links:
-  - title: Database Internals Chat
-    icon: telegram
-    url: "https://t.me/databaseinternalschat"
-  - title: Database Internals Site Sources
-    icon: github
-    url: "https://github.com/tsafin/db-internals-pages"
+- reading-lists/index.md
+- about.md
 
-hide_site_feed_link: true
+minima:
+  skin: "solarized"
+
+  social_links:
+    - title: Database Internals Chat
+      icon: telegram
+      url: "https://t.me/databaseinternalschat"
+    - title: Database Internals Site Sources
+      icon: github
+      url: "https://github.com/tsafin/db-internals-pages"
+
+  hide_site_feed_link: true
+
 excerpt_separator: <!--more-->

@@ -2,6 +2,7 @@
 layout: default
 title: Home
 ---
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
 
 <img src="./assets/images/db_internals_meetup.jpg" alt="Banner Image" style="width:100%; height:auto;">
 
