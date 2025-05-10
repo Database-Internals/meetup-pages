@@ -1,4 +1,4 @@
-title: Database Internals Meetup
+title: Database Internals Meetups
 description: Database Internals Meetup community content.
 theme: minima
 markdown: kramdown
@@ -6,8 +6,7 @@ markdown: kramdown
 # Optional: Custom navigation links
 header_pages:
   - index.md
-  - videos/
-
+ 
 social_links:
   - title: Database Internals Chat
     icon: telegram
@@ -17,3 +16,4 @@ social_links:
     url: "https://github.com/tsafin/db-internals-pages"
 
 hide_site_feed_link: true
+excerpt_separator: <!--more-->

@@ -1,6 +1,6 @@
 ---
-layout: home
-title: Страница митапа сообщества Database Internals
+layout: default
+title: DB Internals Meetup Home
 ---
 
 ## Videos
@@ -8,7 +8,8 @@ title: Страница митапа сообщества Database Internals
 <ul>
   {% for post in site.posts %}
     <li>
-      <a href="{{ post.url }}">{{ post.title }}</a>
+      <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+      <p>{{ post.excerpt }}</p>
     </li>
   {% endfor %}
 </ul>
