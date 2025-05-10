@@ -1,20 +1,17 @@
 ---
 layout: default
-title: Video Example 3
+title: Database Internals Meetup №3
 ---
 
-# Video Example 3: Local Video File
+# Database Internals Meetup №3
 
-Below is a locally hosted video file (upload the video to the repository):
+Database Internals Meetup №3: архитектура СУБД SoQoL, и протокол репликации YTsaurus 
 
-<video width="640" height="360" controls>
-  <source src="video.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/iwA-vzD_5cQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 <p>
-  <a href="video.mp4" download target="_blank" rel="noopener noreferrer">
-    Download or Open Video
+  <a href="https://www.youtube.com/watch?v=iwA-vzD_5cQ" target="_blank" rel="noopener noreferrer">
+    Watch on YouTube
   </a>
 </p>
 

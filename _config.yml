@@ -7,3 +7,13 @@ markdown: kramdown
 header_pages:
   - index.md
   - videos/
+
+social_links:
+  - title: Database Internals Chat
+    icon: telegram
+    url: "https://t.me/databaseinternalschat"
+  - title: Database Internals Site Sources
+    icon: github
+    url: "https://github.com/tsafin/db-internals-pages"
+
+hide_site_feed_link: true

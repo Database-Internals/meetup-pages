@@ -1,16 +1,16 @@
 ---
 layout: default
-title: Video Example 1
+title: Database Internals Meetup №1
 ---
 
-# Video Example 1: YouTube Embedded Video
+# Database Internals Meetup №1
 
-Below is an embedded YouTube video:
+Database Internals Meetup №1: Оптимизатор YDB, и как Picodata меняет рынок in-memory data grid
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/OQw4Sy-_xK0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 <p>
-  <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank" rel="noopener noreferrer">
+  <a href="https://www.youtube.com/watch?v=OQw4Sy-_xK0" target="_blank" rel="noopener noreferrer">
     Watch on YouTube
   </a>
 </p>

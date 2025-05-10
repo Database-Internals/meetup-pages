@@ -1,17 +1,17 @@
 ---
 layout: default
-title: Video Example 2
+title: Database Internals Meetup №2
 ---
 
-# Video Example 2: Vimeo Embedded Video
+# Database Internals Meetup №2
 
-Below is an embedded Vimeo video:
+Database Internals Meetup №2: зачем нам DBOS, и новый тип гистограмм в openGauss 
 
-<iframe src="https://player.vimeo.com/video/76979871" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/LMo6JBu2tzw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 <p>
-  <a href="https://vimeo.com/76979871" target="_blank" rel="noopener noreferrer">
-    Watch on Vimeo
+  <a href="https://www.youtube.com/watch?v=LMo6JBu2tzw" target="_blank" rel="noopener noreferrer">
+    Watch on YouTube
   </a>
 </p>
 
