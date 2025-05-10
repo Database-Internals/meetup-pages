@@ -1,6 +1,6 @@
 ---
 layout: default
-title: DB Internals Meetup Home
+title: Home
 ---
 
 ## Videos

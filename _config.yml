@@ -3,9 +3,9 @@ description: Database Internals Meetup community content.
 theme: minima
 markdown: kramdown
 
-# Optional: Custom navigation links
 header_pages:
   - index.md
+  - reading-lists/index.md
  
 social_links:
   - title: Database Internals Chat
