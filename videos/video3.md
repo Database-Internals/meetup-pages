@@ -3,9 +3,8 @@ layout: post
 title: Database Internals Meetup №3
 ---
 
-# Database Internals Meetup №3
+## Meetup №3: архитектура СУБД SoQoL, и протокол репликации YTsaurus 
 
-## Database Internals Meetup №3: архитектура СУБД SoQoL, и протокол репликации YTsaurus 
 > Третий митап российского сообщества разработчиков СУБД и распределенных систем. Обсудим архитектуру новой российской СУБД SoQoL и новый протокол межкластерной репликации данных YTsaurus.
 
 

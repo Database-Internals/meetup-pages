@@ -3,12 +3,9 @@ layout: post
 title: Database Internals Meetup №7
 ---
 
-# Database Internals Meetup №7
-
 ## Database Internals Meetup #7 (online). Cloud Native & Serverless: WeSQL + Nile 
 
 > Database Internals Meetup #7. This time we dive into Cloud Native and Serverless with two innovative systems: WeSQL and Nile
-
 
 <p>
   <a href="http://www.youtube.com/watch?v=8UOhb6mJAFA" target="_blank" rel="noopener noreferrer">

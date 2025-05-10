@@ -1,9 +1,7 @@
 ---
 layout: home
-title: Home
+title: Страница митапа сообщества Database Internals
 ---
-
-# Welcome to the GitHub Pages Video Demo
 
 ## Videos
 
@@ -12,3 +10,5 @@ title: Home
 * [Database Internals Meetup №3](videos/video3.md)
 * [Database Internals Meetup №4](videos/video4.md)
 * [Database Internals Meetup №5](videos/video5.md)
+* [Database Internals Meetup №6](videos/video6.md)
+* [Database Internals Meetup №7 (stub)](videos/video7.md)

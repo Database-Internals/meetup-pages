@@ -3,9 +3,7 @@ layout: post
 title: Database Internals Meetup №1
 ---
 
-# Database Internals Meetup №1
-
-## Database Internals Meetup №1: Оптимизатор YDB, и как Picodata меняет рынок in-memory data grid
+## Meetup №1: Оптимизатор YDB, и как Picodata меняет рынок in-memory data grid
 
 > Первый митап российского сообщества разработчиков СУБД и распределенных систем. Обсудили устройство оптимизатора YDB, а также 
 > фундаментальные проблемы IMDG-решений, и как их стремится преодолеть Picodata — новая система управления данными на основе 

@@ -3,9 +3,7 @@ layout: post
 title: Database Internals Meetup №6
 ---
 
-# Database Internals Meetup №6
-
-## Database Internals Meetup #6 (офлайн + онлайн): Колоночный движок в Tarantool и параллельная репликация в СУБД SoQoL 
+## Meetup №6 (офлайн + онлайн): Колоночный движок в Tarantool и параллельная репликация в СУБД SoQoL 
 
 > Шестой митап российского сообщества разработчиков СУБД и распределенных систем.
 > Обсудим устройство колоночного движка в экосистеме Tarantool и разработку
@@ -19,10 +17,10 @@ title: Database Internals Meetup №6
   </a>
 </p>
 
-<iframe src="https://vkvideo.ru/video_ext.php?oid=-226977842&id=456239020&hd=2&autoplay=1" width="853" height="480" allow="autoplay; encrypted-media; fullscreen; picture-in-picture; screen-wake-lock;" frameborder="0" allowfullscreen></iframe>
+<iframe src="https://vkvideo.ru/video_ext.php?oid=-226977842&id=456239023&hd=2&autoplay=1" width="853" height="480" allow="autoplay; encrypted-media; fullscreen; picture-in-picture; screen-wake-lock;" frameborder="0" allowfullscreen></iframe>
 
 <p>
-  <a href="https://vkvideo.ru/video-226977842_456239020" target="_blank" rel="noopener noreferrer">
+  <a href="https://vkvideo.ru/video-226977842_456239023" target="_blank" rel="noopener noreferrer">
     Watch on VK
   </a>
 </p>

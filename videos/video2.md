@@ -3,9 +3,8 @@ layout: post
 title: Database Internals Meetup №2
 ---
 
-# Database Internals Meetup №2
+## Meetup №2: зачем нам DBOS, и новый тип гистограмм в openGauss
 
-## Database Internals Meetup №2: зачем нам DBOS, и новый тип гистограмм в openGauss
 > Второй митап российского сообщества разработчиков СУБД и распределенных систем. 
 > Поговорим о задачах и позиционировании DBOS, а также о новом методе оценки
 > кардинальностей в openGauss

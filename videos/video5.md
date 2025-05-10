@@ -3,9 +3,8 @@ layout: post
 title: Database Internals Meetup №5
 ---
 
-# Database Internals Meetup №5
+## Meetup №5: доклады + панельная дискуссия на секции СУБД конференции ISPRAS Open 
 
-## Database Internals Meetup №5: доклады + панельная дискуссия на секции СУБД конференции ISPRAS Open 
 > Пятый митап российского сообщества разработчиков СУБД и распределенных систем. Доклады от основателей и ведущих разработчиков YDB, Picodata, Tarantool, openGauss и CedrusData
 
 
