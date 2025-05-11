@@ -1,0 +1,16 @@
+- image: /assets/images/alexey_kopytov.jpg
+  name: "Alexey Kopytov"
+- image: /assets/images/andrey_borodin.jpg
+  name: "Andrey Borodin"
+- image: /assets/images/denis_ponomaryov.jpg
+  name: "Denis Ponomaryov"
+- image: /assets/images/konstantin_osipov.jpg
+  name: "Konstantin Osipov"
+- image: /assets/images/pavel_velikhov.jpg
+  name: "Pavel Velikhov"
+- image: /assets/images/ruslan_savchenko.jpg
+  name: "Ruslan Savchenko"
+- image: /assets/images/timur_safin.jpg
+  name: "Timur Safin"
+- image: /assets/images/vladimir_ozerov.jpg
+  name: "Vladimir Ozerov"
