@@ -8,6 +8,7 @@ title: About Us
   <div class="gallery-item">
     <img src="{{ item.image | relative_url }}" alt="{{ item.name }}" />
     <h3>{{ item.name }}</h3>
+    <p class="grey">{{ item.description }}</p>
   </div>
   {% endfor %}
 </div>
@@ -25,6 +26,7 @@ title: About Us
 }
 .gallery-item img {
   max-width: 100%;
+  max-height: 238px;
   height: auto;
   border: 1px solid #ddd;
   border-radius: 4px;

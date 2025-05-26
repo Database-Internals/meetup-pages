@@ -2,15 +2,20 @@
   name: "Alexey Kopytov"
 - image: /assets/images/andrey_borodin.jpg
   name: "Andrey Borodin"
-- image: /assets/images/denis_ponomaryov.jpg
+  description: "Postgres hacker at Yandex Cloud"
+- image: /assets/images/denis_ponomaryov_upscaled.jpg
   name: "Denis Ponomaryov"
 - image: /assets/images/konstantin_osipov.jpg
   name: "Konstantin Osipov"
-- image: /assets/images/pavel_velikhov.jpg
+  description: "Managing Director, R&D - Arenadata"
+- image: /assets/images/pavel_velihov_official_512px.jpg
   name: "Pavel Velikhov"
+  description: "Developed various DBMS systems since 1999, currently leads YDB Query Optimizer Team"
 - image: /assets/images/ruslan_savchenko.jpg
   name: "Ruslan Savchenko"
 - image: /assets/images/timur_safin.jpg
   name: "Timur Safin"
+  description: "LRI Lab Director, GaussDB(DWS). Execution engines, JIT"
 - image: /assets/images/vladimir_ozerov.jpg
   name: "Vladimir Ozerov"
+  description: "CEO at Querify Labs. Works on query optimizers, analytical engines, and open table formats"
