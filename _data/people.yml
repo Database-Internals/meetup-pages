@@ -14,6 +14,7 @@
   description: "Developed various DBMS systems since 1999, currently leads YDB Query Optimizer Team"
 - image: /assets/images/ruslan_savchenko.jpg
   name: "Ruslan Savchenko"
+  description: "Head of YTSaurus Dynamic Tables development. Worked on storage and replication."
 - image: /assets/images/timur_safin.jpg
   name: "Timur Safin"
   description: "LRI Lab Director, GaussDB(DWS). Execution engines, JIT"
