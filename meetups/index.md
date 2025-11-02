@@ -11,13 +11,15 @@ document.addEventListener('DOMContentLoaded', function () {
 });
 </script>
 
+{% assign icon = "fab fa-meetup" %}
+
 > Список митапов сообщества Database Internals.
 
 {% assign meetups = site.posts | where_exp:"post","post.tags contains 'meetup'" %}
 
 {% if meetups and meetups != empty %}
 {% for post in meetups %}
-  <h1><i class="fab fa-meetup"></i> <a href="{{ post.url | relative_url }}">{{ post.title }} — {{ post.date | date: "%Y-%m-%d" }}</a></h1>
+  <h1><i class="{{ icon }}"></i> <a href="{{ post.url | relative_url }}">{{ post.title }} — {{ post.date | date: "%Y-%m-%d" }}</a></h1>
 
   {% if post.excerpt %}
   {{ post.excerpt }}

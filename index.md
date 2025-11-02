@@ -3,15 +3,18 @@ layout: default
 title: Home
 ---
 
-<img src="./assets/images/db_internals_meetup.jpg" alt="Banner Image" style="width:100%; height:auto;">
+<h1 class="page-index post-title">Database Internals Meetups</h1>
 
-# Recent Videos
+## Recent Videos:
 
-<ul>
   {% for post in site.posts %}
-    <li>
-      <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
-      <p>{{ post.excerpt }}</p>
-    </li>
-  {% endfor %}
-</ul>
+  {% if post.tags contains 'meetup' %}
+  {% assign icon = "fab fa-meetup" %}
+  {% else %}
+  {% assign icon = "fas fa-podcast" %}
+  {% endif %}
+  <h1><i class="{{ icon }}"></i> <a href="{{ post.url | relative_url }}">{{ post.title }} — {{ post.date | date: "%Y-%m-%d" }}</a></h1>
+  {% if post.excerpt %}
+  {{ post.excerpt }}
+  {% endif %}
+{% endfor %}

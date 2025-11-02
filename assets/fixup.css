@@ -1,6 +1,7 @@
 ---
 ---
-/* Page-specific hero styles for Meetups and Podcasts pages */
+/* Page-specific hero styles for Index, Meetups and Podcasts pages */
+.page-index,
 .page-meetups .post-title,
 .page-podcasts .post-title {
   background-image: url('{{ "/assets/images/db_internals_meetup.jpg" | relative_url }}');
@@ -18,11 +19,13 @@
 }
 
 @media (max-width: 640px) {
+  .page-index,
   .page-meetups .post-title,
   .page-podcasts .post-title { height: 180px; padding: 2rem 1rem; font-size: 1.4rem; }
 }
 
 /* Optional: provide a slightly darker overlay if needed */
+.page-index::before,
 .page-meetups .post-title::before,
 .page-podcasts .post-title::before {
   content: "";
@@ -32,7 +35,9 @@
   pointer-events: none;
 }
 
+.page-index,
 .page-meetups .post-title,
 .page-podcasts .post-title { position: relative; z-index: 1; }
+.page-index::before,
 .page-meetups .post-title::before,
 .page-podcasts .post-title::before { z-index: 0; }
