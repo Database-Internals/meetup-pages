@@ -1,7 +1,9 @@
+---
+---
 /* Page-specific hero styles for Meetups and Podcasts pages */
 .page-meetups .post-title,
 .page-podcasts .post-title {
-  background-image: url('/assets/images/db_internals_meetup.jpg');
+  background-image: url('{{ "/assets/images/db_internals_meetup.jpg" | relative_url }}');
   background-size: cover;
   background-position: center;
   color: #fff;
