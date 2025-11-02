@@ -17,9 +17,9 @@ document.addEventListener('DOMContentLoaded', function () {
 
 {% if podcasts and podcasts != empty %}
 {% for post in podcasts %}
-- [{{ post.title }}]({{ post.url | relative_url }}) — {{ post.date | date: "%Y-%m-%d" }}
+  <h1><i class="fas fa-podcast"></i> <a href="{{ post.url | relative_url }}">{{ post.title }} — {{ post.date | date: "%Y-%m-%d" }}</a></h1>
+
   {% if post.excerpt %}
-  
   {{ post.excerpt }}
   {% endif %}
 {% endfor %}

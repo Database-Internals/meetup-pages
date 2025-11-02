@@ -17,9 +17,9 @@ document.addEventListener('DOMContentLoaded', function () {
 
 {% if meetups and meetups != empty %}
 {% for post in meetups %}
-- [{{ post.title }}]({{ post.url | relative_url }}) — {{ post.date | date: "%Y-%m-%d" }}
+  <h1><i class="fab fa-meetup"></i> <a href="{{ post.url | relative_url }}">{{ post.title }} — {{ post.date | date: "%Y-%m-%d" }}</a></h1>
+
   {% if post.excerpt %}
-  
   {{ post.excerpt }}
   {% endif %}
 {% endfor %}
