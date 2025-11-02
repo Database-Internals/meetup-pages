@@ -3,6 +3,14 @@ layout: post
 title: Meetups
 ---
 
+
+<script>
+// Add a page class so fixup.css can target the .post-title only on this page
+document.addEventListener('DOMContentLoaded', function () {
+  if (document && document.body) document.body.classList.add('page-meetups');
+});
+</script>
+
 > Список митапов сообщества Database Internals.
 
 {% assign meetups = site.posts | where_exp:"post","post.tags contains 'meetup'" %}

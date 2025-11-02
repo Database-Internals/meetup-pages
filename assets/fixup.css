@@ -1,0 +1,36 @@
+/* Page-specific hero styles for Meetups and Podcasts pages */
+.page-meetups .post-title,
+.page-podcasts .post-title {
+  background-image: url('/assets/images/db_internals_meetup.jpg');
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  text-shadow: 0 3px 8px rgba(0,0,0,0.6);
+  padding: 3rem 1rem;
+  margin-bottom: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 260px;
+  box-sizing: border-box;
+}
+
+@media (max-width: 640px) {
+  .page-meetups .post-title,
+  .page-podcasts .post-title { height: 180px; padding: 2rem 1rem; font-size: 1.4rem; }
+}
+
+/* Optional: provide a slightly darker overlay if needed */
+.page-meetups .post-title::before,
+.page-podcasts .post-title::before {
+  content: "";
+  position: absolute;
+  left: 0; right: 0; top: 0; bottom: 0;
+  background: rgba(0,0,0,0.18);
+  pointer-events: none;
+}
+
+.page-meetups .post-title,
+.page-podcasts .post-title { position: relative; z-index: 1; }
+.page-meetups .post-title::before,
+.page-podcasts .post-title::before { z-index: 0; }
