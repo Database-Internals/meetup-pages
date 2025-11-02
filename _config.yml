@@ -8,8 +8,10 @@ sass:
 
 # to become minima.nav_pages in minima@3.0
 header_pages:
-- reading-lists/index.md
-- about.md
+ - meetups/index.md
+ - podcasts/index.md
+ - reading-lists/index.md
+ - about.md
 
 minima:
   skin: "solarized"
