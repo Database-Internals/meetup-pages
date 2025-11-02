@@ -5,7 +5,7 @@ title: Home
 
 <img src="./assets/images/db_internals_meetup.jpg" alt="Banner Image" style="width:100%; height:auto;">
 
-# Videos
+# Recent Videos
 
 <ul>
   {% for post in site.posts %}
