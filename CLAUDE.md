@@ -306,3 +306,12 @@ The current manual process is appropriate because:
 - Human review ensures content quality and consistency
 - Special events require flexible handling
 - Maintenance burden would exceed time saved
+
+### Future Automation Options
+
+If workflow grows or team expands, see [FUTURE_AUTOMATION.md](FUTURE_AUTOMATION.md) for:
+- Video embed generation tools (low effort, high value)
+- Post template generation from structured data
+- GitHub Actions workflows for video updates
+- TimepadIn scraping considerations
+- Recommended implementation phases
