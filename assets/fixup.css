@@ -189,6 +189,8 @@ pre, code { overflow-x: auto; }
 .gallery-item img {
   width: 100%;
   max-width: 260px;
+  display: block;
+  margin: 0 auto;
   aspect-ratio: 1 / 1;
   object-fit: cover;
   object-position: center 25%;
