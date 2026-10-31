@@ -1,20 +1,9 @@
 ---
-layout: default
+layout: hero
 title: Home
+hero_title: Database Internals Meetups
 ---
 
-<h1 class="page-index post-title">Database Internals Meetups</h1>
+## Recent Videos
 
-## Recent Videos:
-
-  {% for post in site.posts %}
-  {% if post.tags contains 'meetup' %}
-  {% assign icon = "fab fa-meetup" %}
-  {% else %}
-  {% assign icon = "fas fa-podcast" %}
-  {% endif %}
-  <h1><i class="{{ icon }}"></i> <a href="{{ post.url | relative_url }}">{{ post.title }} — {{ post.date | date: "%Y-%m-%d" }}</a></h1>
-  {% if post.excerpt %}
-  {{ post.excerpt }}
-  {% endif %}
-{% endfor %}
+{% include post-list.html posts=site.posts %}
