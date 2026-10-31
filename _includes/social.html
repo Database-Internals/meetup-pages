@@ -1,5 +1,5 @@
 {% for entry in site.minima.social_links %}
-    <a rel="me" href="{{ entry.url }}" target="_blank" title="{{ entry.title }}">
-      <span class="grey fa-brands fa-{{ entry.icon }} fa-2x"></span>
+    <a rel="me noopener" href="{{ entry.url }}" target="_blank" title="{{ entry.title }}" aria-label="{{ entry.title }}">
+      <span class="grey fa-brands fa-{{ entry.icon }} fa-2x" aria-hidden="true"></span>
     </a>
 {% endfor %}

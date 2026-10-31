@@ -1,0 +1,23 @@
+{%- comment -%}
+  Renders a list of posts as cards.
+  Params: include.posts (required)
+{%- endcomment -%}
+<div class="post-cards">
+{%- for post in include.posts -%}
+  {%- if post.tags contains 'meetup' -%}
+    {%- assign icon = "fab fa-meetup" -%}
+  {%- else -%}
+    {%- assign icon = "fas fa-podcast" -%}
+  {%- endif %}
+  <article class="post-card">
+    <h2 class="post-card-title">
+      <i class="{{ icon }}" aria-hidden="true"></i>
+      <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+    </h2>
+    <p class="post-meta"><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%Y-%m-%d" }}</time></p>
+    {%- if post.excerpt %}
+    <div class="post-card-excerpt">{{ post.excerpt }}</div>
+    {%- endif %}
+  </article>
+{%- endfor %}
+</div>
