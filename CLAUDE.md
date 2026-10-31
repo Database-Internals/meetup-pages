@@ -98,7 +98,7 @@ When a new meetup is announced on [TimepadIn](https://databaseinternals.timepad.
 
 5. **Important notes**
    - Ensure UTF-8 encoding (Russian text must render correctly)
-   - Preserve Russian text exactly as provided in TimepadIn
+   - Preserve Russian text exactly as provided in TimepadIn (the only exception is the past-tense rewrite after the event, see step 9)
    - Use relative URLs: `[Back to Home]({{ "/" | relative_url }})`
    - Font Awesome icons for video links: `<i class="fab fa-youtube"></i>` and `<i class="fab fa-vk"></i>`
 
@@ -113,6 +113,11 @@ When a new meetup is announced on [TimepadIn](https://databaseinternals.timepad.
    - Once videos are available (typically within 1-2 weeks), update the post with YouTube and VK embeds
    - Replace TODO comments with actual iframe tags
    - Use the format from existing posts (video5 or video9)
+
+9. **Post-event: Rewrite the post in past tense**
+   - Once the event has taken place, the post must describe it as past, not future
+   - If the post is created after the event (e.g. backfilling from an old TimepadIn announcement), write it in past tense from the start
+   - See "Past-Tense Rewrite Rules" below for what to change
 
 **Common issues:**
 - Mismatched numbering with TimepadIn → verify sequential number before creating
@@ -233,7 +238,7 @@ This section describes how to keep the website synchronized with meetup announce
 ### Event Numbering and Sequencing
 
 - Meetups are numbered sequentially: Database Internals Meetup №1, №2, etc.
-- Current status: Meetups #1-10 exist on the website; future numbering (#11+) to be determined
+- Current status: Meetups #1-12 exist on the website; the next one is #13
 - **Before creating a post**: Always verify the number from TimepadIn to avoid duplicate numbering
 
 ### Quality Assurance Checklist
@@ -247,6 +252,7 @@ Before committing a new post, verify:
 - [ ] Talk descriptions match the source material
 - [ ] File naming follows convention: `YYYY-MM-DD-videoN.md`
 - [ ] Post has been tested locally (optional but recommended)
+- [ ] If the event has already happened, the post is written in past tense
 
 ### Handling Special Event Types
 
@@ -273,7 +279,21 @@ After an event occurs:
 1. Wait for videos to be uploaded to YouTube and VK (typically 1-2 weeks)
 2. Update the post file by replacing TODO comments with actual embed codes
 3. Verify both YouTube and VK embeds display correctly
-4. Commit the update with message: `"Add video embeds for Meetup #N"`
+4. Rewrite the post in past tense (see below), if not done yet
+5. Commit the update with message: `"Add video embeds for Meetup #N"`
+
+### Past-Tense Rewrite Rules
+
+TimepadIn announcements are written in future tense ("поговорим", "пройдет", "в докладе рассмотрим"). After the event, the post must read as a record of what happened (see `2025-10-15-video9.md`, `2026-03-03-video11.md`, `2026-09-09-video12.md`):
+
+- **Excerpt quote:** "В этот раз поговорим про…" → "В этот раз поговорили про…"
+- **Intro:** replace "Приглашаем вас на N-й митап…" with "N-й митап сообщества Database Internals прошёл в гибридном формате — офлайн и онлайн." (or "онлайн", "офлайн" as appropriate)
+- **Location:** "Мероприятие пройдет в офисе…" → "Офлайн-часть прошла в офисе…"
+- **Streaming:** "Участвующим онлайн будет доступна трансляция…" → "Для онлайн-участников была организована трансляция…"; "Трансляция организована…" → "Трансляция мероприятия была организована…"
+- **Remove** registration-only details that no longer matter: "Регистрация обязательна", limited seats, passport/ID requirements, personal-data consent text
+- **Talk descriptions:** convert future verbs to past ("рассмотрим/расскажем/обсудим/покажем/сравним/разберём/будет рассказано" → "рассмотрели/рассказали/обсудили/показали/сравнили/разобрали/было рассказано"); first-person speaker text ("я расскажу") becomes third person ("Георгий рассказал"), "мы" may become "команда"
+- **Keep unchanged:** the program/schedule (times and speakers), talk titles, speaker names and positions, technical content
+- **Verify:** `grep -nE 'будет|пройд|рассмотрим|расскажем|обсудим|покажем|сравним|поговорим|разберём|Приглашаем' _posts/<file>.md` returns nothing
 
 ### Recommended Workflow
 
